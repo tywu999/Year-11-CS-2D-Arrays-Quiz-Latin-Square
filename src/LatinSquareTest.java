@@ -47,16 +47,16 @@ class LatinSquareTest {
         };
 
         array2d6 = new int[][] {
-                {2,1,2},
-                {3,3,3},
-                {1,2,1}
+                {2,3,1},
+                {1,3,2},
+                {2,3,1}
         };
 
         array2d7 = new int[][] {
                 {1,2,3,4},
-                {2,1,4,3},
-                {3,4,2,1},
-                {4,3,2,1}
+                {2,1,4,1},
+                {3,4,2,3},
+                {4,3,1,2}
         };
 
         array2d8 = new int[][] {
@@ -119,7 +119,7 @@ class LatinSquareTest {
         assertTrue(LatinSquare.isLatinRows(array2d6, LatinSquare.calculateCheckSum1(array2d6),
                 LatinSquare.calculateCheckSum2(array2d6)) == true);
         assertTrue(LatinSquare.isLatinRows(array2d7, LatinSquare.calculateCheckSum1(array2d7),
-                LatinSquare.calculateCheckSum2(array2d7)) == true);
+                LatinSquare.calculateCheckSum2(array2d7)) == false);
         assertTrue(LatinSquare.isLatinRows(array2d8, LatinSquare.calculateCheckSum1(array2d8),
                 LatinSquare.calculateCheckSum2(array2d8)) == false);
     }
@@ -135,11 +135,11 @@ class LatinSquareTest {
         assertTrue(LatinSquare.isLatinColumns(array2d4, LatinSquare.calculateCheckSum1(array2d4),
                 LatinSquare.calculateCheckSum2(array2d4)) == true);
         assertTrue(LatinSquare.isLatinColumns(array2d5, LatinSquare.calculateCheckSum1(array2d5),
-                LatinSquare.calculateCheckSum2(array2d5)) == true);
+                LatinSquare.calculateCheckSum2(array2d5)) == false);
         assertTrue(LatinSquare.isLatinColumns(array2d6, LatinSquare.calculateCheckSum1(array2d6),
-                LatinSquare.calculateCheckSum2(array2d6)) == true);
+                LatinSquare.calculateCheckSum2(array2d6)) == false);
         assertTrue(LatinSquare.isLatinColumns(array2d7, LatinSquare.calculateCheckSum1(array2d7),
-                LatinSquare.calculateCheckSum2(array2d7)) == false);
+                LatinSquare.calculateCheckSum2(array2d7)) == true);
         assertTrue(LatinSquare.isLatinColumns(array2d8, LatinSquare.calculateCheckSum1(array2d8),
                 LatinSquare.calculateCheckSum2(array2d8)) == false);
     }
