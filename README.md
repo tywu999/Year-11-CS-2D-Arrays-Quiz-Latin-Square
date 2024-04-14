@@ -3,7 +3,7 @@
 Ensure that you read all instructions carefully. Do not include any additional methods that are not specified in this quiz description. Think carefully about your solution before writing any code. Use meaningful variable names and proper indentation - take pride in your work! 
 
 <b>Description</b>: A Latin square is an NxN arrangement of symbols such that each symbol appears exactly once in every row and every column.<br>
-In this quiz, we will restrict our attention to Latin squares where the symbols consist of integers from 1 to N (where N is the square length), where computing checksums for each row and column is sufficient to determine uniqueness.
+In this quiz, we will restrict our attention to Latin squares where the symbols consist of integers from 1 to N (where N is the square length), in which case computing checksums for each row and column is sufficient to determine uniqueness.
 
 A **checksum** is a value calculated from a block of data to verify whether certain properties are met, usually for purposes of data integrity in transmission or storage. Checksum calculations should not require expensive computations or complex data structures. In this case, we are simply calculating sums and products.
 
