@@ -59,9 +59,9 @@ Column 4: [2,1,4,3] → 2 + 4 + 1 + 3 = 10, [2,1,4,3] → 2 * 4 * 1 * 3 = 24
 
 `checkSum2(array2d);` → returns <b>24</b>
 
-`isLatinRows(array2d, checkSum(array2d));` → returns <b>true</b>
+`isLatinRows(array2d, checkSum1(array2d), checkSum2(array2d));` → returns <b>true</b>
 
-`isLatinColumns(array2d, checkSum(array2d));` → returns <b>true</b>
+`isLatinColumns(array2d, checkSum1(array2d), checkSum2(array2d));` → returns <b>true</b>
 
 `isLatinSquare(array2d);` → returns <b>true</b>
 
