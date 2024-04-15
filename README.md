@@ -8,8 +8,8 @@ In this quiz, we will restrict our attention to Latin squares where the symbols 
 A **checksum** is a value calculated from a block of data to verify whether certain properties are met, usually for purposes of data integrity in transmission or storage. Checksum calculations should not require expensive computations or complex data structures. In this case, we are simply calculating sums and products.
 
 <b>Task</b>: In the LatinSquare class you will implement <b>five</b> methods.
-* `checkSum1`: This method takes an NxN array of integers and returns the sum of consecutive integers 1 + 2 + ... + N.
-* `checkSum2`: This method takes an NxN array of integers and returns the product of consecutive integers 1 * 2 * ... * N.
+* `checkSum1`: This method calculates a target checksum by taking the row size N and returning the sum of consecutive integers 1 + 2 + ... + N.
+* `checkSum2`: This method calculates a target checksum by taking the row size N and returning the product of consecutive integers 1 * 2 * ... * N.
 * `isLatinRows`: This method takes a 2D array of integers and two checkSums and returns a boolean value depending on whether or not the sum of each row in array2d is equal to checkSum1 AND that the product of each row in array2d is equal to checkSum2.
 * `isLatinColumns`: This method takes a 2D array of integers and a checkSum and returns a boolean value depending on whether or not the sum of each column in array2d is equal to checkSum1 AND that the product of each column in array2d is equal to checkSum2
 * `isLatinSquare`: This method takes a 2D array of integers and returns a boolean value depending on whether the 2D array is a Latin square or not. 
